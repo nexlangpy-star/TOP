@@ -3,7 +3,7 @@ import os
 
 setup(
     name="TOP",
-    version="1.3.5",
+    version="1.3.4",
     packages=find_packages(),
     install_requires=[],
     author="devil",
