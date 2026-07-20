@@ -1,6 +1,6 @@
 import os
 import sys
-from .TOP import compress_file_gzip, run_compressed_elf
+from .TOP import *
 lib_dir = os.path.dirname(__file__)
 os.environ['LD_LIBRARY_PATH'] = lib_dir + ':' + os.environ.get('LD_LIBRARY_PATH', '')
 
